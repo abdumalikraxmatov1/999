@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 50px 0;
+  border-bottom: 1px solid #bcaaaa;
+  box-shadow: 0px 4px 8.7px 0px #00000040;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #bcaaaa;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.05px;
+  padding-bottom: 15px;
+}
+nav ul li a:hover {
+  color: #ef400f;
+  border-bottom: 3px solid #ef400f;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.header__btn {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.05px;
+  color: #ef400f;
+  padding: 16px 24px;
+  border: 3px solid #ef400f;
+  border-radius: 20px;
+  background: white;
+}
+
+main {
+  padding: 60px 0;
+  height: 100vh;
+}
+.hero__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero__top div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.korzinka i {
+  font-size: 36px;
+}
+.korzinka h2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48.41px;
+  color: #0d0c5c;
+}
+input {
+  width: 386px;
+  height: 63px;
+  background-color: black;
+  color: white;
+  padding: 17px 21px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+.hero__btn {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.05px;
+  color: white;
+  padding: 15px 32px;
+  background-color: #0D0D5B;
+  border-radius: 20px;
+}
+.history i{
+    color: #EF400F;
+    font-size: 36px;
+}
+.history h3{
+    color: #EF400F;
+    font-size: 30px;
+}
+
+.card{
+    width: 290px;
+    height: 290px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 13.3px 0px #00000040;
+    text-align: center;
+    padding: 20px;
+}
+.card__ota{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    gap: 20px;
+}
+.card h3{
+    margin: 15px 0;
+}
